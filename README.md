@@ -1,37 +1,20 @@
-## Welcome to GitHub Pages
+#Avicenna.ai
 
-You can use the [editor on GitHub](https://github.com/arbioeng/arbioeng.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## Trademark: The pyCanon of Medicine
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Introduction:
 
-### Markdown
+- Starting this blog post as a means to understand information more effectively while attempting to disseminate it for an audience.
+- [Avicenna.ai](http://avicenna.ai) is a means to explore the convergence of medicine and the frontiers of artificial intelligence technology.
+    - Avicenna is a persian polymath whose works *The Book of Healing* and *The Cannon of Medicine* served as standard medical books for institutions worldwide till the late 17th century.
+    - A post will be done in the future exploring the historical significance behind his works and how they have shaped medicine; at the same time, an analysis of possible questions related to comparisions of historical medical standards vs modern medical standards and methodologies.
+- The premise of this blog will be simple; after comprehensively going through the initial learning phase through fast.ai, a series of projects from Kaggle as well as custom questions will be explored through neural network techniques.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Future Blog Posts
 
-```markdown
-Syntax highlighted code block
+- Linux
+- 
 
-# Header 1
-## Header 2
-### Header 3
+### Future projects
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/arbioeng/arbioeng.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+-

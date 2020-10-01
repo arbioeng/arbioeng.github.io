@@ -1,5 +1,3 @@
-#Avicenna.ai
-
 ## Trademark: The pyCanon of Medicine
 
 ### Introduction:

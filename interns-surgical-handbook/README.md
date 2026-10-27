@@ -6,15 +6,32 @@
 
 ## What works today
 
-- **13 searchable rapid-reference notes** for on-call pages, acute surgical consultation, and basic ward workflow.
-- **Five reusable practice checklists** for pre-rounding, postoperative checks, consults, I-PASS, and OR readiness.
-- **Three fictional decision cases** with sequential questions, teaching feedback, and primary references.
+- **19 searchable articles: 13 clinical rapid-reference notes and 6 new Intern Essentials chapters** for on-call pages, acute surgical consultation, and basic ward workflow.
+- **Twelve reusable practice checklists** for pre-rounding, postoperative checks, consults, I-PASS, and OR readiness.
+- **Five fictional decision cases** with sequential questions, teaching feedback, and primary references.
 - **Bookmarks, progress markers, and checkbox persistence** using browser `localStorage`.
 - **Keyboard search:** `⌘K`, `Ctrl+K`, or `/`.
 - **Light/dark mode**, mobile-friendly navigation, print-ready article view, and zero external runtime dependencies.
 - Reference links and dated editorial disclosures on every applicable guide.
 
-The content was originally drafted October 27, 2026. The source library includes ACS INCISE, AHRQ, SCCM 2026 Surviving Sepsis Campaign guidance, NICE NG89, KDIGO AKI guidance, CDC SSI resources, WHO surgical safety resources, and the 2025 edition of the WSES appendicitis guideline published in 2026.
+The content was drafted and expanded October 27, 2026. Intern Essentials is an original educational adaptation inspired by **Stony Brook Department of Surgery, _A Survival Guide and Summary of What Every Surgical Intern Should Know_ (revised by Dan Rutigliano, DO)**. We link to the public source and do not reproduce its document text or its institution-specific policies. This handbook is independent and not endorsed by Stony Brook. The source library includes ACS INCISE, AHRQ, SCCM 2026 Surviving Sepsis Campaign guidance, NICE NG89, KDIGO AKI guidance, CDC SSI resources, WHO surgical safety resources, 2026 ACGME Common Program Requirements (Residency), the Stony Brook intern survival guide, and the 2025 edition of the WSES appendicitis guideline published in 2026.
+
+## Intern Essentials expansion (v0.2)
+
+A dedicated **Intern essentials** tab contains six original, linked chapters:
+
+1. The dependable surgical intern — escalation, honesty, teamwork and accountability.
+2. A day in the life — pre-rounding, OR, afternoon reassessment and sign-out.
+3. Prioritizing the surgical task list — risk, timing, ownership and closed-loop completion.
+4. Night coverage — watchers, pages, reassessment and morning handoff.
+5. Communication, documentation and safe handoffs — SBAR, I-PASS, accurate records, discharge.
+6. Professional growth, teaching and sustainable practice — learner supervision, teamwork, 2026 ACGME work-hour basics.
+
+Seven new educational checklists and two fictional cases practice tasks and escalation decisions. These are **learning aids only** and are not substitutes for a hospital's official workflow, patient chart or training requirements.
+
+### Scope and source policy
+
+The original Stony Brook source contains advice from its local training environment. This project retains broadly useful ideas but does **not** reproduce its prose or present local scheduling, phone escalation instructions, dress customs or the institution's EHR workflow as universal medical policy. Current ACGME limits are sourced directly from the July 2026 requirements and may coexist with more specific institutional requirements.
 
 ## Preview locally
 
@@ -37,24 +54,16 @@ node tests/smoke.js
 
 This checks all content IDs, source links, case-choice structure, navigation rendering, practice-case transitions, and bookmark persistence. This is **not** a substitute for browser compatibility testing or clinical peer review.
 
-## Publish to GitHub Pages
+## GitHub Pages deployment (current)
 
-1. Create a new **public** repository on GitHub named `interns-surgical-handbook` (do not pre-populate with a README if uploading these files via Git).
-2. From the project folder, run:
+This site is published inside the existing GitHub Pages repository [`arbioeng/arbioeng.github.io`](https://github.com/arbioeng/arbioeng.github.io) on the `master` branch, in the folder `interns-surgical-handbook/`.
 
-```bash
-git init
-git add .
-git commit -m "Initial Intern's Surgical Handbook prototype"
-git branch -M main
-git remote add origin https://github.com/YOUR-USERNAME/interns-surgical-handbook.git
-git push -u origin main
-```
+- **Published URL:** https://arbioeng.github.io/interns-surgical-handbook/
+- **Source:** https://github.com/arbioeng/arbioeng.github.io/tree/master/interns-surgical-handbook
+- To redeploy, commit changed files to that directory in `master`; Pages must be configured to deploy from `master` `/ (root)` (unless using a custom GitHub Actions deployment).
+- If the published link fails, check repository **Settings → Pages** and the deployment status. Do not assume visibility just because a commit succeeded.
 
-3. In **Settings → Pages**, set **Source: Deploy from a branch**, **Branch: main**, **Folder: /(root)**, then save.
-4. When GitHub finishes deployment, visit `https://YOUR-USERNAME.github.io/interns-surgical-handbook/`.
-
-GitHub Pages generally publishes website content publicly **even when a backing repository is private**, except for specific supported private publishing configurations. Never add identifiable patient information or any private files to this repository.
+GitHub Pages sites are generally public. Keep identifiable patient information, institutional credentials and restricted materials out of the repository.
 
 ## Update content without touching layout
 

@@ -2,18 +2,18 @@
 
 ## Opening — 20 seconds
 
-"I have an interest in the transition from memorizing medicine to making safe, structured decisions on clinical services. So I built an early prototype called *The Intern's Surgical Handbook*, a searchable guide for common surgical pages, handoffs and perioperative workflows."
+"I have an interest in the transition from memorizing medicine to making safe, structured decisions on clinical services. So I built an early prototype called *The Intern's Surgical Handbook*. It links practical intern habits such as escalation and task ownership to common surgical pages, handoffs and short decision cases."
 
 ## Show — 60 seconds
 
-1. Open the **Overview** and choose **Postoperative hypotension** from the clinical library.
-2. Show the **red flags**, focused assessment, **teaching point**, and original sources.
+1. Open **Intern essentials** and show **A day in the life** or **The dependable surgical intern** to establish the real learning problem.
+2. Open **On-call reference** → **Postoperative hypotension** and show the red flags, first actions and sources.
 3. Open **Practice cases** → **The 2 a.m. tachycardia page** and answer the first decision to show the reasoning feedback.
-4. Open **Checklists** → **I-PASS sign-out** and show the structured handoff items.
+4. Open **Checklists** → **Afternoon rounds readiness** or **I-PASS sign-out** to demonstrate practical team workflow.
 
 ## Explain the design — 25 seconds
 
-"I separated the underlying medical content from the website so it can be edited and checked by physicians. I also added traceable references and review disclosures because the goal is to create a trustworthy *educational* resource, not pretend that a personal project is a validated clinical protocol."
+"I separated the underlying medical content from the website so it can be edited and reviewed by physicians. The intern-skills chapters are an original adaptation inspired by a publicly available Stony Brook intern survival guide, and I link to it with attribution. I also added traceable references and review disclosures because the goal is to create a trustworthy *educational* resource, not pretend that a personal project is a validated clinical protocol."
 
 ## Close — 15 seconds
 
